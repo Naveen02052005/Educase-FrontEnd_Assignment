@@ -1,31 +1,44 @@
 # PopX - React Onboarding Flow
 
-This is a React implementation of the PopX Adobe XD design. It includes basic onboarding screens like Welcome, Login, Create Account, and Account Settings, connected using React Router.
+This project is a React JS implementation of the PopX Adobe XD design provided for the qualifier task. The application includes a multi-screen onboarding flow with navigation using React Router and is styled to closely match the given design in a pixel-perfect manner.
+
+## Live Demo
+
+- Hosted Link: https://your-live-project-link.netlify.app
+
+## GitHub Repository
+
+- Repository Link: https://github.com/Naveen02052005/Educase-FrontEnd_Assignment
+
+## Design Reference
+
+Adobe XD Design:
+https://xd.adobe.com/view/b68eea25-003d-4a5d-8fdd-d463eeb20b32-e3dd
 
 ## Features
 
-- Multi-page onboarding flow using React Router
-- Form validation (basic enable/disable button logic)
-- Responsive UI based on Adobe XD design
-- Account settings page after login/signup
-- Clean component structure with reusable UI parts
+- Pixel-perfect UI based on Adobe XD design
+- Fully centered mobile app interface on desktop view
+- Smooth navigation between screens using React Router
+- Form validation (button enable/disable based on input fields)
+- Clean and structured component-based architecture
+- Responsive design
 
 ## Screens
 
-- `/` — Welcome page (Create Account / Already Registered? Login)
-- `/login` — Login page (Email, Password — login button works when fields are filled)
-- `/signup` — Sign up page (Full Name, Phone, Email, Password, Company, Agency option — create account enabled when required fields are filled)
-- `/account-settings` — Account Settings page (profile photo, name, email, bio) — shown after login or signup
+- `/` — Welcome screen (Create Account / Login navigation)
+- `/login` — Login screen (Email & Password fields with validation)
+- `/signup` — Create Account screen (Full Name, Phone, Email, Password, Company, Agency selection)
+- `/account-settings` — Account Settings screen (Profile, Name, Email, Bio)
 
 ## Tech Stack
 
-- React 18
+- React JS (v18)
 - Vite
 - React Router v6
-- Plain CSS (no frameworks)
-- Styling handled in `src/index.css`
+- Plain CSS (custom styling, no frameworks)
 
-## How to run locally
+## How to Run Locally
 
 ```bash
 npm install
