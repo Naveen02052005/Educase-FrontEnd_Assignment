@@ -1,0 +1,74 @@
+.settings-page {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 780px;
+}
+
+.settings-header {
+  padding: 20px 24px;
+  font-size: 20px;
+  font-weight: 700;
+  border-bottom: 1px solid #ececec;
+}
+
+.settings-body {
+  background: #f7f7f8;
+  padding: 24px;
+  flex: 1;
+}
+
+.profile-row {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 20px;
+}
+
+.avatar-wrap {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+}
+
+.avatar-wrap img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.camera-badge {
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--color-white);
+}
+
+.profile-name {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.profile-email {
+  font-size: 14px;
+  color: var(--color-text-muted);
+}
+
+.profile-bio {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--color-text-dark);
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #d7d7db;
+}
